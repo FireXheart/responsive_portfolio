@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sourav.dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="icon" type="image/jpg" href="images/SouravDev.jpg">
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+  <!-- Navigation Bar --> 
+  <header>
+    <nav class="navbar">
+      <div class="logo"><span>Sourav.dev</span></div>
+      <ul class="nav-links">
+        <li><a href="#main-container">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications" >Certifications</a></li>
+        <li><a href="mailto:sourav.lenka18@gmail.com">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="theme-toggle" id="theme-toggle">
+        <span id="theme-icon">&#x1F31E;</span> <!-- Sun icon for light mode -->
+      </div>
+      <select id="language-switcher" class="language-switcher">
+  <option value="en">EN</option>
+  <option value="fr">FR</option>
+  <option value="hi">ES</option>
+  <option value="es">HI</option>
+</select>
+
+      </div>
+        <input type="color" id="color-picker" title="Pick a theme color">
+      </div>
+    </nav>
+  </header>
+
+
+
+  <br>
+  <br>
+<main>
+  <!-- Hero Section -->
+  
+  <section>
+        <div class="main-container" id="main-container">
+            <div class="image">
+                <img src="Profile.png" width="400" height="300" alt="My Profile Picture">
+            </div>
+            <div class="content">
+                <h1 data-i18n="hero.title">Hi, I am <span>Sourav Kumar Lenka</span></h1>
+                <div class="typewriter">I'm a <span></span></div>
+                <p data-i18n="hero.description">a frontend developer, specializing in UI design and creating engaging user experiences with a strong attention to detail.</p>
+                <div class="btn">
+                    <a href="./Sourav_Kumar_lenka_Resume.pdf" target="_blank"><button>
+                        <p data-i18n="hero.link">Download CV</p>
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+	<br>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+  <div class="abt"><h1 data-i18n="about.title">About Me</h1></div>
+  
+	<p data-i18n="about.content">I’m Sourav Kumar Lenka, a passionate and driven software engineer with a strong foundation in Java, Spring Boot, and full-stack web development. Currently pursuing my Master’s in Computer Applications at RVS College of Engineering and Technology, I’ve developed hands-on experience through both academic projects and my internship at FedEx, where I’m deepening my expertise in REST API design, OOP principles, and database integration.With over 250+ coding problems solved on Leetcode and multiple certifications from IBM, HackerRank, and SNTI, I’m committed to continuous learning and staying updated with evolving tech trends. My projects include a Library Management System and a Sentiment-Based Airline Recommendation System, reflecting my interest in practical problem-solving and user-centric design.Beyond technical skills, I value teamwork, adaptability, and communication, having also organized community initiatives like blood donation and awareness campaigns. Whether it's writing clean code, learning a new tool, or collaborating on real-world challenges—I’m always excited to grow and make a meaningful impact.
+    </p>  </section><br><br><br>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h1 data-i18n="skills.title">Skills</h2><br>
+    <div class="skills-container">
+      <div class="skill">C++</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Java</div>
+      <div class="skill">Spring</div>
+      <div class="skill">Springboot</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">Outsystem </div>
+      <div class="skill">Git</div>
+      <div class="skill">GitHub</div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+
+  <section id="certifications" class="certifications">
+  <div class="certify">
+    <h1 data-i18n="certifications.title">Certifications</h1>
+  </div>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide" data-aos="zoom-in-left">
+        <img src="images/Certifications/Cloud Core.jpg" alt="Cloud Core Certification" />
+      </div>
+      <div class="swiper-slide" data-aos="zoom-in-right">
+        <img src="images/Certifications/Introduction To Cloud.jpg" alt="Introduction to Cloud" />
+      </div>
+      <div class="swiper-slide" data-aos="zoom-in-left">
+        <img src="images/Certifications/Java.jpg" alt="Java Certification" />
+      </div>
+      <div class="swiper-slide" data-aos="zoom-in-right">
+        <img src="images/Certifications/Python.jpg" alt="Python Certification" />
+      </div>
+      <div class="swiper-slide" data-aos="zoom-in-left">
+        <img src="images/Certifications/Sql.jpg" alt="SQL Certification" />
+      </div>
+      <div class="swiper-slide" data-aos="zoom-in-right">
+        <img src="images/Certifications/Sql and Relational Databases 101.jpg" alt="SQL and Relational Databases 101" />
+      </div>
+
+    </div>
+
+    <!-- Swiper Controls -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+
+
+
+
+  <!--<section id="certifications" class="certifications">
+  <div class="certify">
+    <h1 data-i18n="certifications.title">Certifications</h1>
+	</div>
+    <div class="certifications-gallery">
+      <div class="certification">
+         <div class="img" data-aos="zoom-in-left"><img src="images/Certifications/Cloud Core.jpg" width="750"></div>
+            <div class="img" data-aos="zoom-in-right"><img src="images/Certifications/Introduction To Cloud.jpg" width="750"></div>
+            <div class="img" data-aos="zoom-in-left"><img src="images/Certifications/Java.jpg" width="750"></div>
+            <div class="img" data-aos="zoom-in-right"><img src="images/Certifications/Python.jpg" width="750"></div>
+            <div class="img" data-aos="zoom-in-left"><img src="images/Certifications/Sql.jpg" width="750"></div>
+            <div class="img" data-aos="zoom-in-right"><img src="images/Certifications/Sql and Relational Databases 101.jpg" width="750"></div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section 
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section> -->
+
+  <!-- Footer 
+  <footer>
+    <p>&copy; 2025 SOURAV.DEV. All Rights Reserved.</p>
+  </footer>-->
+  <footer class="site-footer">
+  <div class="footer-content">
+    <p>Quick Links</p>
+    <div class="socials">
+      <a href="doodle-maker.html" target="_blank">Doodle-Maker</a>
+      <a href="https://www.linkedin.com/in/sourav-kumar-lenka-9892632ab/" target="_blank">linkedin</a>
+      <a href="https://github.com/FireXheart" target="_blank">GitHub</a>
+      <a href="https://leetcode.com/u/bittu009/" target="_blank">Leetcode</a>
+      <a href="https://discord.gg/5wqwWmHcXx" target="_blank">Discord</a>
+      <a href="https://www.instagram.com/bumblebee__001?igsh=MTBkbnZpM3h6NGQ3MA==" target="_blank">Instagram</a>
+      
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 <span>Sourav.dev</span> | All Rights Reserved</p>
+  </div>
+</footer>
+
+</main>
+  <script>
+  // Get theme toggle elements
+const themeToggle = document.getElementById('theme-toggle');
+const themeIcon = document.getElementById('theme-icon');
+
+// Check local storage for theme preference
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+  document.body.classList.add(savedTheme);
+  if (savedTheme === 'dark-mode') {
+    themeIcon.innerHTML = '&#x1F31B;'; // Change icon to moon for dark mode
+  }
+}
+
+// Toggle theme function
+themeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+  document.body.classList.toggle('light-mode');
+
+  // Save the theme preference to localStorage
+  const currentTheme = document.body.classList.contains('dark-mode') ? 'dark-mode' : 'light-mode';
+  localStorage.setItem('theme', currentTheme);
+
+  // Toggle theme icon
+  themeIcon.innerHTML = document.body.classList.contains('dark-mode') ? '&#x1F31B;' : '&#x1F31E;';
+});
+
+// Hamburger menu toggle
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  hamburger.classList.toggle('active');
+});
+
+//color picker
+
+const colorPicker = document.getElementById('color-picker');
+    colorPicker.addEventListener('input', (event) => {
+      const selectedColor = event.target.value;
+      document.documentElement.style.setProperty('--ani-text', selectedColor);
+      localStorage.setItem('customColor', selectedColor);
+    });
+
+    const savedColor = localStorage.getItem('customColor');
+    if (savedColor) {
+      document.documentElement.style.setProperty('--ani-text', savedColor);
+      colorPicker.value = savedColor;
+    }
+
+    //language
+  const translations = {
+    en: {
+      "hero.title": "Hi, I am <span>Sourav Kumar Lenka</span>",
+      "hero.span": "I’m a",
+      "hero.description": "A frontend developer, specializing in UI design and creating engaging user experiences with a strong attention to detail.",
+      "about.title": "About Me",
+      "about.content": "I’m Sourav Kumar Lenka, a passionate and driven software engineer with a strong foundation in Java, Spring Boot, and full-stack web development. Currently pursuing my Master’s in Computer Applications at RVS College of Engineering and Technology, I’ve developed hands-on experience through both academic projects and my internship at FedEx, where I’m deepening my expertise in REST API design, OOP principles, and database integration. With over 250+ coding problems solved on Leetcode and multiple certifications from IBM, HackerRank, and SNTI, I’m committed to continuous learning and staying updated with evolving tech trends. My projects include a Library Management System and a Sentiment-Based Airline Recommendation System, reflecting my interest in practical problem-solving and user-centric design. Beyond technical skills, I value teamwork, adaptability, and communication, having also organized community initiatives like blood donation and awareness campaigns. Whether it's writing clean code, learning a new tool, or collaborating on real-world challenges—I’m always excited to grow and make a meaningful impact.",
+      "skills.title": "Skills",
+      "certifications.title": "Certifications",
+      "hero.link": "Download CV"
+    },
+    fr: {
+      "hero.title": "Salut, je suis <span>Sourav Kumar Lenka</span>",
+      "hero.span": "Je suis un",
+      "hero.description": "Un développeur frontend, spécialisé dans la conception d’interfaces utilisateur et la création d’expériences engageantes, avec une grande attention aux détails.",
+      "about.title": "À propos de moi",
+      "about.content": "Je suis Sourav Kumar Lenka, un ingénieur logiciel passionné et motivé, avec une solide maîtrise de Java, Spring Boot et du développement web full-stack. Actuellement étudiant en Master d'applications informatiques au RVS College of Engineering and Technology, j’ai acquis une expérience pratique à travers des projets académiques et un stage chez FedEx, où j'approfondis mes compétences en conception d'API REST, en principes de la POO, et en intégration de bases de données. Avec plus de 250 problèmes résolus sur Leetcode et plusieurs certifications obtenues auprès d'IBM, HackerRank et SNTI, je m’engage dans un apprentissage continu et me tiens à jour sur les tendances technologiques. Mes projets incluent un système de gestion de bibliothèque et un système de recommandation de compagnies aériennes basé sur les sentiments, témoignant de mon intérêt pour la résolution pratique de problèmes et la conception centrée sur l’utilisateur. Au-delà des compétences techniques, j’accorde une grande importance au travail d’équipe, à l’adaptabilité et à la communication. J’ai également organisé des initiatives communautaires comme des dons de sang et des campagnes de sensibilisation. Qu'il s'agisse d'écrire un code propre, d'apprendre un nouvel outil ou de collaborer sur des défis réels, je suis toujours enthousiaste à l'idée d'évoluer et d’avoir un impact significatif.",
+      "skills.title": "Compétences",
+      "certifications.title": "Certifications",
+      "hero.link": "Télécharger le CV"
+    },
+    hi: {
+      "hero.title": "Hola, soy <span>Sourav Kumar Lenka</span>",
+      "hero.span": "Soy un",
+      "hero.description": "Un desarrollador frontend, especializado en diseño de interfaces de usuario y en la creación de experiencias de usuario atractivas, con una gran atención al detalle.",
+      "about.title": "🇪🇸 Sobre mí",
+      "about.content": "Soy Sourav Kumar Lenka, un ingeniero de software apasionado y motivado, con una sólida base en Java, Spring Boot y desarrollo web full-stack. Actualmente estoy cursando mi Maestría en Aplicaciones Informáticas en el RVS College of Engineering and Technology. He adquirido experiencia práctica a través de proyectos académicos y mi pasantía en FedEx, donde estoy profundizando mis conocimientos en diseño de API REST, principios de programación orientada a objetos y la integración de bases de datos. He resuelto más de 250 problemas de codificación en LeetCode y he obtenido múltiples certificaciones de IBM, HackerRank y SNTI, lo que refleja mi compromiso con el aprendizaje continuo y mi esfuerzo por mantenerme actualizado con las tendencias tecnológicas en evolución. Mis proyectos incluyen un Sistema de Gestión Bibliotecaria y un Sistema de Recomendación de Aerolíneas Basado en Sentimientos, lo cual refleja mi interés en la resolución práctica de problemas y en el diseño centrado en el usuario. Más allá de mis habilidades técnicas, valoro el trabajo en equipo, la adaptabilidad y la comunicación. También he organizado iniciativas comunitarias como campañas de donación de sangre y concienciación. Ya sea escribiendo código limpio, aprendiendo una nueva herramienta o colaborando en desafíos del mundo real, siempre estoy entusiasmado por crecer y generar un impacto significativo.",
+      "skills.title": "🇪🇸 Habilidades",
+      "certifications.title": "🇪🇸 Certificaciones",
+      "hero.link": "Descargar CV"
+    },
+    es: {
+      "hero.title": "नमस्ते, मैं <span>सौरव कुमार लेंका</span> हूँ",
+      "hero.span": "मैं एक",
+      "hero.description": "एक फ्रंटएंड डेवलपर, जो UI डिज़ाइन और आकर्षक उपयोगकर्ता अनुभव बनाने में माहिर है, और細विवरणों पर गहरी ध्यान देता है।",
+      "about.title": "मेरे बारे में",
+      "about.content": "मैं सौरव कुमार लेंका हूँ, एक उत्साही और प्रेरित सॉफ्टवेयर इंजीनियर, जिसकी जड़ें Java, Spring Boot और फुल-स्टैक वेब डेवलपमेंट में मजबूत हैं। वर्तमान में मैं RVS कॉलेज ऑफ़ इंजीनियरिंग एंड टेक्नोलॉजी से मास्टर्स इन कंप्यूटर एप्लिकेशन कर रहा हूँ। मैंने अकादमिक प्रोजेक्ट्स और FedEx में इंटर्नशिप के ज़रिए व्यावहारिक अनुभव प्राप्त किया है, जहाँ मैं REST API डिज़ाइन, ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग और डेटाबेस इंटीग्रेशन में अपनी विशेषज्ञता बढ़ा रहा हूँ। Leetcode पर 250+ से अधिक प्रोग्रामिंग समस्याओं का समाधान और IBM, HackerRank तथा SNTI से प्राप्त कई प्रमाणपत्र यह दर्शाते हैं कि मैं सतत सीखने और बदलती टेक्नोलॉजी ट्रेंड्स के साथ अपडेट रहने के लिए प्रतिबद्ध हूँ। मेरे प्रोजेक्ट्स में लाइब्रेरी मैनेजमेंट सिस्टम और सेंटिमेंट-आधारित एयरलाइन रिकमेंडेशन सिस्टम शामिल हैं, जो मेरी समस्या-समाधान क्षमता और उपयोगकर्ता-केंद्रित सोच को दर्शाते हैं। तकनीकी कौशल के अलावा, मैं टीमवर्क, अनुकूलनशीलता और संवाद को भी महत्व देता हूँ। मैंने रक्तदान और जागरूकता अभियानों जैसे सामुदायिक कार्यक्रमों का भी आयोजन किया है। चाहे वह स्वच्छ कोडिंग हो, नया टूल सीखना हो या रियल-वर्ल्ड चैलेंज में सहयोग करना—मैं हमेशा सीखने और प्रभाव डालने के लिए तैयार रहता हूँ।",
+      "skills.title": "कौशल",
+      "certifications.title": "प्रमाणपत्र",
+      "hero.link": "सीवी डाउनलोड करें"
+    }
+  };
+
+  const switcher = document.getElementById("language-switcher");
+  const elements = document.querySelectorAll("[data-i18n]");
+
+  function updateLanguage(lang) {
+    localStorage.setItem("lang", lang);
+    elements.forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      el.innerHTML = translations[lang][key] || el.innerHTML;
+    });
+  }
+
+  switcher.addEventListener("change", e => {
+    updateLanguage(e.target.value);
+  });
+
+  const savedLang = localStorage.getItem("lang") || "en";
+  switcher.value = savedLang;
+  updateLanguage(savedLang);
+
+  //slideshow
+  
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+
+
+  </script>
+</body>
+</html>
